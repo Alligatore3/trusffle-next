@@ -209,7 +209,7 @@
   >
     <div class="max-w-[1000px] w-full px-6">
       <div class="flex flex-col md:flex-row gap-12 items-start">
-        <div class="md:w-1/3 sticky top-24">
+        <div class="md:w-1/3 top-24">
           <h2 class="text-3xl font-black text-[#1c1c0d] dark:text-white mb-4">
             From Soil to Sushi Bar
           </h2>
