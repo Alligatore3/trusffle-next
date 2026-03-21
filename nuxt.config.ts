@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+
   app: {
     head: {
       title: 'Trusffle - Premium Australian Truffles',
@@ -30,4 +31,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  modules: ['@nuxtjs/tailwindcss'],
 })
