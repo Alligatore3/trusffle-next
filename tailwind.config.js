@@ -1,9 +1,32 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  darkMode: 'class',
+  content: [
+    './app/**/*.{vue,js,ts}',
+    './components/**/*.{vue,js,ts}',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#f9f506',
+        'primary-content': '#1c1c0d',
+        'background-light': '#f8f8f5',
+        'background-dark': '#23220f',
+        'text-main': '#1c1c0d',
+        'text-muted': '#57574b',
+        'border-color': '#e6e6da',
+      },
+      fontFamily: {
+        display: ['Spline Sans', 'Noto Sans JP', 'sans-serif'],
+        body: ['Spline Sans', 'Noto Sans JP', 'sans-serif'],
+      },
+      borderRadius: {
+        DEFAULT: '1rem',
+        lg: '2rem',
+        xl: '3rem',
+        full: '9999px',
+      },
+    },
   },
   plugins: [],
 }
-

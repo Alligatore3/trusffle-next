@@ -1,45 +1,5 @@
 <template>
 
-<!-- <html class="light" lang="en"><head>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-tailwind.config = {
-darkMode: "class",
-theme: {
-extend: {
-colors: {
-"primary": "#f9f506",
-"primary-content": "#1c1c0d",
-"background-light": "#f8f8f5",
-"background-dark": "#23220f",
-"text-main": "#1c1c0d",
-"text-muted": "#57574b",
-"border-color": "#e6e6da",
-},
-fontFamily: {
-"display": ["Spline Sans", "Noto Sans JP", "sans-serif"],
-"body": ["Spline Sans", "Noto Sans JP", "sans-serif"],
-},
-borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
-},
-},
-}
-</script>
-
-<style>
-/* Custom smooth scroll behavior */
-html { scroll-behavior: smooth; }
-.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
-.icon-filled { font-variation-settings: 'FILL' 1; }
-</style>
-</head> -->
 <!-- <body class="bg-background-light dark:bg-background-dark font-display text-text-main antialiased selection:bg-primary selection:text-primary-content"> -->
 
   <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
